@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import Counter from './components/counter'
+import TodoList from './components/TodoList'
 
 function App() {
+  const [buttonSwitch, setSwitch] = useState(true)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container p-5">
+      <button className="btn btn-hover mb-2" onClick={()=> setSwitch(!buttonSwitch)}>switch</button>
+      <div className="card mb-3">
+        <div className="card-body">
+          <h1 className="card-title">Todo-List-Redux</h1>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-body">
+          {buttonSwitch ? <TodoList /> : <Counter />}
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
