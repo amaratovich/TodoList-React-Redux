@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TodoList-React-Redux/static/css/main.0f343a51.chunk.css",
+    "main.js": "/TodoList-React-Redux/static/js/main.9cb9b067.chunk.js",
+    "main.js.map": "/TodoList-React-Redux/static/js/main.9cb9b067.chunk.js.map",
+    "runtime-main.js": "/TodoList-React-Redux/static/js/runtime-main.7c44a43a.js",
+    "runtime-main.js.map": "/TodoList-React-Redux/static/js/runtime-main.7c44a43a.js.map",
+    "static/js/2.a064c5d6.chunk.js": "/TodoList-React-Redux/static/js/2.a064c5d6.chunk.js",
+    "static/js/2.a064c5d6.chunk.js.map": "/TodoList-React-Redux/static/js/2.a064c5d6.chunk.js.map",
+    "index.html": "/TodoList-React-Redux/index.html",
+    "static/css/main.0f343a51.chunk.css.map": "/TodoList-React-Redux/static/css/main.0f343a51.chunk.css.map",
+    "static/js/2.a064c5d6.chunk.js.LICENSE.txt": "/TodoList-React-Redux/static/js/2.a064c5d6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/TodoList-React-Redux/static/media/standsome-worklifestyle-rDfrL7caLz4-unsplash.67ca639a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c44a43a.js",
+    "static/js/2.a064c5d6.chunk.js",
+    "static/css/main.0f343a51.chunk.css",
+    "static/js/main.9cb9b067.chunk.js"
+  ]
+}
